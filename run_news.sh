@@ -7,7 +7,7 @@ export BERT_MODELS_DIR=./models/chinese
 
 python run_classifier.py \
   --task_name=news \
-  --do_train=true \
+  --do_train=false \
   --do_eval=true \
   --data_dir=${DATA_DIR} \
   --vocab_file=${BERT_MODELS_DIR}/vocab.txt \
